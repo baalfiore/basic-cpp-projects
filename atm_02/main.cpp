@@ -9,22 +9,8 @@ void showMenu(){
     cout << "4. Exit" << endl;
     cout << "****************" << endl;
 }
-//acquires balance user.
-int getBalance()
-{
 
-}
-
-void setLogin(bool &login, bool newValue){
-login = newValue;
-}
-
-// sets the exiting value.
-void logout( bool &exitVal){
-    exitVal = true;
-    cout << "Logging out! Have a great day :)" << endl;
-}
-
+//acquires balance for the user.
 double getBalance(double *bal)
 {
     return *bal;
@@ -47,8 +33,7 @@ int main()
     double* ptr = NULL;
 
     ptr = &balance;
-    option = 1;
-
+    
     do
     {
         showMenu();
@@ -96,6 +81,6 @@ int main()
             default:
                     break;
         }
-    //system("pause>0");
+    system("pause>0");
     }  while(option !=4);
 }

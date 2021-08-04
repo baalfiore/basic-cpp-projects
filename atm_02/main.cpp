@@ -33,7 +33,7 @@ int main()
     double* ptr = NULL;
 
     ptr = &balance;
-    
+
     do
     {
         showMenu();
@@ -81,6 +81,6 @@ int main()
             default:
                     break;
         }
-    system("pause>0");
+    //system("pause>0");
     }  while(option !=4);
 }
